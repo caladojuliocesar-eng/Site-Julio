@@ -15,7 +15,7 @@ export default function Home() {
 
       <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
         <Button asChild size="lg" className="h-12 px-8 text-base">
-          <Link href="https://wa.me/SEUNUMERO" target="_blank" rel="noreferrer">
+          <Link href="https://wa.me/5511999731501" target="_blank" rel="noreferrer">
             Vamos conversar? <ArrowRight className="ml-2 h-4 w-4" />
           </Link>
         </Button>
