@@ -100,29 +100,81 @@ export default function Lab() {
                         </Button>
                     </CardFooter>
                 </Card>
-                {/* Seção Bônus: Stack Pessoal (Afiliado Néctar) */}
+                {/* Seção Bônus: Stack Pessoal e Parcerias */}
                 <div className="mt-20 pt-10 border-t border-border/50">
                     <div className="mb-8">
-                        <h2 className="text-2xl font-bold tracking-tight mb-2">Meu Stack de Produtividade</h2>
-                        <p className="text-muted-foreground">
-                            A ferramenta que roda nos bastidores para organizar minha rotina como pai, marido e estrategista.
+                        <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-2">Meu Stack de Operação</h2>
+                        <p className="text-muted-foreground text-lg">
+                            As ferramentas exatas que rodam nos meus bastidores para organizar minha rotina, minhas vendas e minha infraestrutura.
                         </p>
                     </div>
 
-                    <div className="bg-secondary/50 rounded-xl p-6 md:p-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 border border-border/50 hover:border-foreground/20 transition-colors">
-                        <div className="max-w-xl">
-                            <h3 className="text-xl font-bold mb-2 flex items-center gap-2">
-                                🍯 Néctar: O "Jarvis" Brasileiro
-                            </h3>
-                            <p className="text-muted-foreground leading-relaxed">
-                                Eu testo dezenas de IAs por semana na Ottomatic, mas para gerenciar minhas tarefas, hábitos e finanças pessoais via WhatsApp, o Néctar é o meu segundo cérebro. Se você quer parar de pular entre 5 aplicativos diferentes, recomendo testar.
-                            </p>
-                        </div>
-                        <Button asChild variant="default" className="shrink-0 w-full md:w-auto">
-                            <Link href="https://meu-nectar.com/?ref=M104436587L" target="_blank" rel="noreferrer">
-                                Testar o Néctar <ExternalLink className="ml-2 h-4 w-4" />
-                            </Link>
-                        </Button>
+                    <div className="grid gap-6 md:grid-cols-3">
+
+                        {/* Card Néctar */}
+                        <Card className="hover:border-foreground/20 transition-colors flex flex-col bg-secondary/30 border-border/50">
+                            <CardHeader className="pb-3">
+                                <CardTitle className="text-xl flex items-center gap-2">
+                                    🍯 Néctar IA
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="flex-1">
+                                <p className="text-sm text-muted-foreground leading-relaxed">
+                                    Meu "Jarvis" pessoal. A inteligência artificial que organiza minhas tarefas, hábitos e finanças direto pelo WhatsApp. É a automação que me garante o tempo livre com o Otto e a Gra.
+                                </p>
+                            </CardContent>
+                            <CardFooter>
+                                <Button asChild variant="outline" className="w-full text-sm h-10">
+                                    <Link href="https://meu-nectar.com/?ref=M104436587L" target="_blank" rel="noreferrer">
+                                        Testar o Néctar <ExternalLink className="ml-2 h-3 w-3" />
+                                    </Link>
+                                </Button>
+                            </CardFooter>
+                        </Card>
+
+                        {/* Card Kommo */}
+                        <Card className="hover:border-foreground/20 transition-colors flex flex-col bg-secondary/30 border-border/50">
+                            <CardHeader className="pb-3">
+                                <CardTitle className="text-xl flex items-center gap-2">
+                                    💬 Kommo CRM
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="flex-1">
+                                <p className="text-sm text-muted-foreground leading-relaxed">
+                                    O CRM definitivo para vendas no WhatsApp. A IA da Ottomatic atrai os leads, mas é a caixa de entrada unificada e os funis do Kommo que garantem o fechamento e a escala da operação.
+                                </p>
+                            </CardContent>
+                            <CardFooter>
+                                <Button asChild variant="outline" className="w-full text-sm h-10">
+                                    {/* O link vai direto para o seu WhatsApp com a mensagem pronta de consultoria */}
+                                    <Link href="https://wa.me/5511999731501?text=Olá%20Julio,%20quero%20implementar%20o%20Kommo%20CRM%20na%20minha%20operação." target="_blank" rel="noreferrer">
+                                        Falar sobre Kommo <ExternalLink className="ml-2 h-3 w-3" />
+                                    </Link>
+                                </Button>
+                            </CardFooter>
+                        </Card>
+
+                        {/* Card Hostinger */}
+                        <Card className="hover:border-foreground/20 transition-colors flex flex-col bg-secondary/30 border-border/50">
+                            <CardHeader className="pb-3">
+                                <CardTitle className="text-xl flex items-center gap-2">
+                                    ⚡ Hostinger
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="flex-1">
+                                <p className="text-sm text-muted-foreground leading-relaxed">
+                                    A base técnica de tudo. É aqui que eu hospedo minhas infraestruturas, os sites do meu ecossistema e dos meus clientes. Servidores ultrarrápidos, seguros e altamente escaláveis.
+                                </p>
+                            </CardContent>
+                            <CardFooter>
+                                <Button asChild variant="outline" className="w-full text-sm h-10">
+                                    <Link href="https://hostinger.com.br?REFERRALCODE=W33CALADOHDE" target="_blank" rel="noreferrer">
+                                        Ver Planos Hostinger <ExternalLink className="ml-2 h-3 w-3" />
+                                    </Link>
+                                </Button>
+                            </CardFooter>
+                        </Card>
+
                     </div>
                 </div>
             </div>
