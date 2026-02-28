@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: "Lab & Hub de Soluções | Julio Cesar Calado",
-    description: "Sistemas desenhados para devolver seu tempo, preservar sua energia e escalar seu patrimônio. Conheça Ottomatic, DashPlan e iGreen Energy.",
+    description: "Sistemas desenhados para devolver seu tempo, blindar seu patrimônio e cortar custos inúteis.",
 };
 
 export default function Lab() {
@@ -15,7 +15,7 @@ export default function Lab() {
                     Lab & Hub de Soluções
                 </h1>
                 <p className="text-xl text-muted-foreground">
-                    Sistemas desenhados para devolver seu tempo, preservar sua energia e escalar seu patrimônio.
+                    Sistemas arquitetados para devolver seu tempo, blindar seu patrimônio e cortar custos operacionais. Sem enrolação.
                 </p>
             </div>
 
@@ -28,13 +28,12 @@ export default function Lab() {
                         </div>
                         <div>
                             <CardTitle className="text-2xl">Ottomatic</CardTitle>
-                            <CardDescription className="text-base mt-2">Hub de Soluções em IA e Funcionários Digitais</CardDescription>
+                            <CardDescription className="text-base mt-2">Hub Completo de Soluções em Inteligência Artificial</CardDescription>
                         </div>
                     </CardHeader>
                     <CardContent>
                         <p className="text-muted-foreground leading-relaxed">
-                            Desenvolvemos sistemas autônomos que operam 24/7. Eliminamos o trabalho braçal e o atrito operacional do seu negócio,
-                            entregando eficiência sistêmica. Menos ruído na comunicação, mais velocidade na operação.
+                            Muito além de &quot;SDRs digitais&quot;. Construímos a infraestrutura de IA que o seu negócio precisa para escalar sem inflar a folha de pagamento. Funcionários digitais operando 24/7, prospectando de forma agressiva e eliminando o trabalho braçal. A máquina trabalha, você foca na estratégia.
                         </p>
                     </CardContent>
                 </Card>
@@ -45,14 +44,13 @@ export default function Lab() {
                             <LineChart className="w-6 h-6" />
                         </div>
                         <div>
-                            <CardTitle className="text-2xl">DashPlan & Consultoria</CardTitle>
-                            <CardDescription className="text-base mt-2">Plataforma de inteligência financeira (Wealth)</CardDescription>
+                            <CardTitle className="text-2xl">DashPlan & Wealth Consulting</CardTitle>
+                            <CardDescription className="text-base mt-2">Planejamento Patrimonial guiado por dados</CardDescription>
                         </div>
                     </CardHeader>
                     <CardContent>
                         <p className="text-muted-foreground leading-relaxed">
-                            Otimização de patrimônio baseada em dados reais. Através da tecnologia e consultoria estratégica de gestão de riqueza,
-                            simulamos cenários tributários, sucessórios e de rentabilidade para tomadas de decisão cirúrgicas.
+                            O seu patrimônio não deve depender de achismos. Uno a tecnologia do DashPlan com minha expertise técnica em Wealth Planning para criar simulações tributárias, sucessórias e de rentabilidade. O resultado? Decisões cirúrgicas, frias e altamente lucrativas para o longo prazo.
                         </p>
                     </CardContent>
                 </Card>
@@ -64,16 +62,16 @@ export default function Lab() {
                         </div>
                         <div>
                             <CardTitle className="text-2xl">iGreen Energy</CardTitle>
-                            <CardDescription className="text-base mt-2">Otimização de custos via energia limpa</CardDescription>
+                            <CardDescription className="text-base mt-2">Otimização de custos fixos via energia sustentável</CardDescription>
                         </div>
                     </CardHeader>
                     <CardContent>
                         <p className="text-muted-foreground leading-relaxed">
-                            Sustentabilidade acoplada à performance financeira. Cortamos custos fixos do seu balanço através da injeção
-                            de energia limpa. Sem instalação de placas, zero burocracia, e redução imediata na sua conta de luz.
+                            Sustentabilidade só faz sentido no mundo real quando vem acompanhada de performance financeira. Reduzo a conta de luz da sua empresa (ou residência) conectando você a usinas de energia limpa. Zero obras, zero burocracia e redução imediata no seu balanço financeiro.
                         </p>
                     </CardContent>
                 </Card>
+
             </div>
         </div>
     );
